@@ -1,0 +1,66 @@
+
+#-----------------------------------------------------------------------------#
+#                                                                             #
+#                                EasyHybrid                                   #
+#                   - A pDynamo graphical user interface -                    #
+#                                                                             #
+#-----------------------------------------------------------------------------#
+#                                                                             #
+#     Developed by Jose Fernando R Bachega and Luis Fernando S M Timmers      #
+#                            <ferbachega@gmail.com>                           #
+#                                                                             #
+#             visit: https://sites.google.com/site/EasyHybrid/                #
+#                   Univesity of Sao Paulo - SP, Brazil                       #
+#      Pontifical Catholic University of Rio Grande do Sul - RS, Brazil       #
+#                                                                             #
+#                                                                             #
+#   EasyHybrid team:                               Special thanks to:         #
+#   - Jose Fernando R Bachega           |         - Fernando V Maluf          #
+#   - Michele Silva                     |                                     #
+#   - Luis Fernando S M Timmers         |                                     #
+#   - Martin Field                      |         - Leonardo R Bachega        #
+#   - Troy Wymore                       |         - Lucas Assirati            #
+#   - Osmar Norberto de Souza           |         - Richard Garratt           #
+#   - Walter R Paixao-Cortes            |                                     #
+#                                                                             #
+#   Cite this work as:                                                        #
+#   J.F.R. Bachega, L.F.S.M. Timmers, L.Assirati, L.B. Bachega, M.J. Field,   #
+#   T. Wymore. J. Comput. Chem. 2013, 34, 2190-2196. DOI: 10.1002/jcc.23346   #
+#                                                                             #
+#-----------------------------------------------------------------------------#
+
+Generated on Wed Nov 29 16:27:23 2017
+
+
+-------------------------------  Conjugate Gradient Minimizer Options ------------------------------
+Beta Type                        =              1  Initial Step                     =            0.1
+Line Searcher                    =           None  Log Frequency                    =              1
+Maximum Iterations               =           5000  Maximum Theta                    =          1e+10
+Minimum Theta                    =          1e-10  RMS Gradient Tolerance           =           0.15
+Steepest Descent Tolerance       =          0.001  Use Spectral Theta               =           True
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+  Iteration       Function          RMS Gradient        Max. |Grad.|          RMS Disp.         Max. |Disp.|
+----------------------------------------------------------------------------------------------------------------
+     0     I     -41414.90730446         18.90953960       1430.88489371          0.00096615          0.07310855
+     1   L1s     -41455.10565559          0.62956526         23.47915632          0.00039801          0.01535002
+     2   L1s     -41455.31889158          0.31054022         16.85143200          0.00006347          0.00334569
+     3   L1s     -41455.44669663          0.44707139         31.54268285          0.00008585          0.00432829
+     4   L1s     -41455.49111230          0.35111987         12.25332271          0.00003508          0.00166141
+     5   L1s     -41455.60050869          0.26639540          8.64498331          0.00010418          0.00437640
+     6   L1s     -41455.70368791          0.30367405          9.30275413          0.00012186          0.00514140
+     7   L1s     -41455.78644221          0.31916640         15.95892766          0.00011022          0.00449562
+     8   L1s     -41455.81153925          0.28448258         16.55596379          0.00003651          0.00141501
+     9   L1s     -41455.86642471          0.20983340          6.35946373          0.00008755          0.00295616
+    10   L0s     -41455.91421426          0.20007203          7.19912255          0.00008755          0.00241532
+    11   L1s     -41455.96204477          0.20261829          8.56924059          0.00009829          0.00220045
+    12   L1s     -41455.97541495          0.22263078         13.35499196          0.00003002          0.00069202
+    13   L1s     -41455.99580689          0.13529941          3.96703488          0.00004887          0.00114253
+----------------------------------------------------------------------------------------------------------------
+
+Minimization converged.
+
+-------------------  Conjugate Gradient Minimizer Statistics -------------------
+Iterations             =             13  Function Calls         =             26
+--------------------------------------------------------------------------------
