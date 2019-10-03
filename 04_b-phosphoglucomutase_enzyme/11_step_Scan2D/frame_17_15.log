@@ -1,0 +1,156 @@
+
+#-----------------------------------------------------------------------------#
+#                                                                             #
+#                                EasyHybrid                                   #
+#                   - A pDynamo graphical user interface -                    #
+#                                                                             #
+#-----------------------------------------------------------------------------#
+#                                                                             #
+#     Developed by Jose Fernando R Bachega and Luis Fernando S M Timmers      #
+#                            <ferbachega@gmail.com>                           #
+#                                                                             #
+#             visit: https://sites.google.com/site/EasyHybrid/                #
+#                   Univesity of Sao Paulo - SP, Brazil                       #
+#      Pontifical Catholic University of Rio Grande do Sul - RS, Brazil       #
+#                                                                             #
+#                                                                             #
+#   EasyHybrid team:                               Special thanks to:         #
+#   - Jose Fernando R Bachega           |         - Fernando V Maluf          #
+#   - Michele Silva                     |                                     #
+#   - Luis Fernando S M Timmers         |                                     #
+#   - Martin Field                      |         - Leonardo R Bachega        #
+#   - Troy Wymore                       |         - Lucas Assirati            #
+#   - Osmar Norberto de Souza           |         - Richard Garratt           #
+#   - Walter R Paixao-Cortes            |                                     #
+#                                                                             #
+#   Cite this work as:                                                        #
+#   J.F.R. Bachega, L.F.S.M. Timmers, L.Assirati, L.B. Bachega, M.J. Field,   #
+#   T. Wymore. J. Comput. Chem. 2013, 34, 2190-2196. DOI: 10.1002/jcc.23346   #
+#                                                                             #
+#-----------------------------------------------------------------------------#
+
+Generated on Wed Jun  5 17:33:26 2019
+
+
+--------------------------------------------------------------------------------
+                       Summary for System "Pruned System"
+--------------------------------------------------------------------------------
+
+---------------------------- Atom Container Summary ----------------------------
+Number of Atoms        =           2173  Number of Heavy Atoms  =           1040
+Number of Hydrogens    =           1133  Number of Unknowns     =              0
+--------------------------------------------------------------------------------
+
+----------------------------- Connectivity Summary -----------------------------
+Atoms                  =           2173
+--------------------------------------------------------------------------------
+
+------------------------------- Electronic State -------------------------------
+Charge                 =             -1  Multiplicity           =              1
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                    Summary for Energy Model "AMBER/AM1/ABFS"
+--------------------------------------------------------------------------------
+
+----------------------------------- Summary for MM Model "AMBER" -----------------------------------
+LJ 1-4 Scaling                   =          0.500  El. 1-4 Scaling                  =          0.833
+Number of MM Atoms               =           2173  Number of MM Atom Types          =             37
+Number of Inactive MM Atoms      =             33  Total MM Charge                  =          -4.00
+Harmonic Bond Terms              =           2169  Harmonic Bond Parameters         =             49
+Harmonic Bond Inactive           =           1308  Fourier Improper Terms           =            320
+Fourier Improper Parameters      =              3  Fourier Improper Inactive        =            164
+Harmonic Angle Terms             =           3403  Harmonic Angle Parameters        =            103
+Harmonic Angle Inactive          =           1938  Fourier Dihedral Terms           =           6697
+Fourier Dihedral Parameters      =             48  Fourier Dihedral Inactive        =           3453
+Exclusions                       =          10377  1-4 Interactions                 =           4805
+LJ Parameters Form               =          AMBER  LJ Parameters Types              =             21
+1-4 Lennard-Jones Form           =          AMBER  1-4 Lennard-Jones Types          =             21
+----------------------------------------------------------------------------------------------------
+
+-------------------------- Summary for QC Model "AM1" --------------------------
+Number of QC Atoms     =             39  Boundary Atoms         =              6
+Nuclear Charge         =            129  Orbital Functions      =            108
+Fitting Functions      =              0  Energy Base Line       =      188.36370
+QC Parameter Centers   =              6
+--------------------------------------------------------------------------------
+
+----------------------------- ABFS NB Model Summary ----------------------------
+Dielectric             =       1.000000  El. 1-4 Scaling        =       0.833333
+Damping Cutoff         =       0.500000  Inner Cutoff           =       8.000000
+List Cutoff            =      13.500000  Outer Cutoff           =      12.000000
+QC/MM Coupling         =    RC Coupling  Use Centering          =          False
+--------------------------------------------------------------------------------
+
+-------------------------- Pairlist Generator Summary --------------------------
+Cell Size              =          6.750  Cutoff                 =         13.500
+Cutoff Cell Size Factor =          0.500  Grid Cell/Cell Method  =           True
+Minimum Cell Extent    =              2  Minimum Cell Size      =          3.000
+Minimum Extent Factor  =          1.500  Minimum Points         =            500
+Sort Indices           =          False
+--------------------------------------------------------------------------------
+
+----------------------- SoftConstraint Container Summary -----------------------
+Multiple Distance      =              2
+--------------------------------------------------------------------------------
+
+---------------------------- Hard Constraint Container Summary ---------------------------
+Number of Charge Constraints  =            0  Number of Fixed Atoms         =         1351
+------------------------------------------------------------------------------------------
+
+------------------------------- Sequence Summary -------------------------------
+Number of Atoms            =       2173  Number of Components       =        213
+Number of Entities         =          1  Number of Linear Polymers  =          0
+Number of Links            =          0  Number of Variants         =          0
+--------------------------------------------------------------------------------
+
+-------------------------------  Conjugate Gradient Minimizer Options ------------------------------
+Beta Type                        =              1  Initial Step                     =            0.1
+Line Searcher                    =           None  Log Frequency                    =              1
+Maximum Iterations               =           5000  Maximum Theta                    =          1e+10
+Minimum Theta                    =          1e-10  RMS Gradient Tolerance           =            0.1
+Steepest Descent Tolerance       =          0.001  Use Spectral Theta               =           True
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+  Iteration       Function          RMS Gradient        Max. |Grad.|          RMS Disp.         Max. |Disp.|
+----------------------------------------------------------------------------------------------------------------
+     0     I      -9476.88778528         39.40125014       1494.57874260          0.00201374          0.07638574
+     1   L1s      -9515.86175650          3.27704565         96.69640227          0.00079969          0.02347254
+     2   L1s      -9516.18058840          1.61604375         41.92448487          0.00007921          0.00220845
+     3   L1s      -9516.71023088          1.21029694         28.82864080          0.00029735          0.00629060
+     4   L1s      -9516.93330346          0.68282781         11.95419622          0.00019399          0.00362981
+     5   L1s      -9517.02073176          0.58924237         11.70746284          0.00012851          0.00224504
+     6   L1s      -9517.05810471          0.60569445         20.05043059          0.00007533          0.00180733
+     7   L1s      -9517.07743236          0.39910897          7.27698383          0.00004679          0.00063036
+     8   L1s      -9517.10407346          0.45406330          9.26708491          0.00008423          0.00109762
+     9   L1s      -9517.11570680          0.41303465         10.50973418          0.00004224          0.00061680
+    10   L1s      -9517.12898130          0.28541357          5.25846960          0.00005481          0.00080572
+    11   L1s      -9517.14997474          0.24571860          3.90491622          0.00010525          0.00161480
+    12   L1s      -9517.16338908          0.21584056          3.73257249          0.00008052          0.00089573
+    13   L1s      -9517.16822477          0.27310298          8.27623896          0.00003425          0.00037392
+    14   L1s      -9517.17359314          0.19004445          3.16978284          0.00004123          0.00059381
+    15   L1s      -9517.18407706          0.28497708          6.56052446          0.00009210          0.00137517
+    16   L1s      -9517.18820662          0.25967723          5.96886583          0.00003814          0.00061976
+    17   L1s      -9517.19633136          0.18698691          2.89401104          0.00007921          0.00133513
+    18   L0s      -9517.20408188          0.14562987          2.16024546          0.00007921          0.00139363
+    19   L1s      -9517.20832054          0.18569194          3.79533193          0.00004865          0.00078729
+    20   L1s      -9517.21104810          0.19482545          4.91183123          0.00003418          0.00060701
+    21   L1s      -9517.21450939          0.15259485          2.44976542          0.00004572          0.00077054
+    22   L1s      -9517.22107955          0.13465954          2.10451848          0.00009355          0.00153423
+    23   L1s      -9517.22438608          0.22326639          6.86163242          0.00005115          0.00081947
+    24   L1s      -9517.22669745          0.13533826          2.31029293          0.00003672          0.00057052
+    25   L1s      -9517.23032559          0.16861108          4.77790027          0.00006163          0.00084026
+    26   L1s      -9517.23186964          0.13728810          3.00140731          0.00002726          0.00036747
+    27   L1s      -9517.23472725          0.11640530          2.16329575          0.00005319          0.00071704
+    28   L1s      -9517.23688824          0.10096144          1.87407286          0.00004295          0.00058019
+    29   L1s      -9517.23917536          0.12940627          1.96407610          0.00004903          0.00067170
+    30   L1s      -9517.24085878          0.15841641          4.17353411          0.00003760          0.00052350
+    31   L0s      -9517.24258578          0.08048405          1.18680985          0.00003760          0.00055052
+----------------------------------------------------------------------------------------------------------------
+
+Minimization converged.
+
+-------------------  Conjugate Gradient Minimizer Statistics -------------------
+Iterations             =             31  Function Calls         =             61
+--------------------------------------------------------------------------------
