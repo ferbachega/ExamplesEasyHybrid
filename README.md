@@ -5,8 +5,8 @@ Examples of enzymatic reactions modeled by hybrid potentials QM / MM using pDyna
 	02 Adenosine Kinese from mus musculus     (new!)
 	03 L-lactate dehydrogenase from Thermus caldophilus  *
 	04 b-phosphoglucomutase enzyme from Lactococcus lactis subsp. Lactis **
-	05 Aloalkane dehalogenase   from  xanthobacter autotrophicus *
-	06 troy?
+	05 D-2-haloacid_dehalogenase (new!)
+	06 uridine-cytidine_kinase_2 * based on Adam J. T. Smith, Ying Li and K. N. Houk*
 
 
 Python script for viewing two-dimensional scan log files (scan2d)
